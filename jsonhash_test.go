@@ -1,9 +1,10 @@
 package jsonhash
 
 import (
+	"encoding/json"
+	"os"
 	"strings"
 	"testing"
-	"tutti-golang/utils"
 )
 
 func TestJson(t *testing.T) {
@@ -31,7 +32,7 @@ func TestJson(t *testing.T) {
 
 		fn := split[1]
 
-		j, err := utils.ParseJsonPath(r)
+		j, err := ParseJsonPath(r)
 		if err != nil {
 			t.Fatal(err.Error())
 		}
@@ -69,4 +70,21 @@ func Eval(ljson, rjson string, hmap map[string]string, shouldBeEqual bool, t *te
 			t.Errorf(`hash(` + ljson + `) == hash(` + rjson + `) should be different.")`)
 		}
 	}
+}
+
+func ParseJsonPath(path string) (map[string]interface{}, error) {
+
+	f, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+
+	var j map[string]interface{}
+	dec := json.NewDecoder(f)
+	if err := dec.Decode(&j); err != nil {
+		return nil, err
+	}
+
+	return j, nil
 }
