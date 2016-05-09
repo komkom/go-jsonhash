@@ -1,0 +1,239 @@
+{
+  "products": [
+    {
+      "dummy" : "dummy",
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "title": "Einmal"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.bump_med_low",
+      "title": "Einmal"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.bump_med_high",
+      "title": "Einmal"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.bump_high",
+      "title": "Einmal"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.wbump_low",
+      "subtitle": "während 4 Wochen",
+      "title": "Jede Woche"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.wbump_med_low",
+      "subtitle": "während 4 Wochen",
+      "title": "Jede Woche"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.wbump_med_high",
+      "subtitle": "während 4 Wochen",
+      "title": "Jede Woche"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.wbump_high",
+      "subtitle": "während 4 Wochen",
+      "title": "Jede Woche"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.dbump_low",
+      "subtitle": "während einer Woche",
+      "title": "Jeden Tag"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.dbump_med_low",
+      "subtitle": "während einer Woche",
+      "title": "Jeden Tag"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.dbump_med_high",
+      "subtitle": "während einer Woche",
+      "title": "Jeden Tag"
+    },
+    {
+      "body": "Ihr Inserat erhält wieder die Spitzenposition der Liste, als ob es gerade erschienen wäre. So erhält es mehr Aufmerksamkeit und zieht dadurch bis zu 5 Mal mehr Käufer an!Sie entscheiden: Wir können Ihr Inserat einmalig an die Spitze setzen, jede Woche (insgesamt 4x) oder jeden Tag (insgesamt 7x). Auf ein noch erfolgreicheres Verkaufen!",
+      "bullets": [
+        "Schiebt Ihr Inserat wieder ganz nach oben"
+      ],
+      "identifier": "V3.dbump_high",
+      "subtitle": "während einer Woche",
+      "title": "Jeden Tag"
+    },
+    {
+      "body": "Geben Sie Ihrem Inserat eine Woche lang einen von nur 3 Plätzen in der Galerie. Die Galerie ist für jede Kategorie und in jedem Kanton verfügbar, so erreichen Sie über 100x mehr Käufer!",
+      "bullets": [
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Ihr Inserat ist im Grossformat über allen anderen",
+        "Sie erreichen über 100x mehr Käufer!"
+      ],
+      "identifier": "V3.gallery_low",
+      "subtitle": "Erreichen Sie 100x mehr K\u0026auml;ufer",
+      "title": "In die Galerie"
+    },
+    {
+      "body": "Geben Sie Ihrem Inserat eine Woche lang einen von nur 3 Plätzen in der Galerie. Die Galerie ist für jede Kategorie und in jedem Kanton verfügbar, so erreichen Sie über 100x mehr Käufer!",
+      "bullets": [
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Ihr Inserat ist im Grossformat über allen anderen",
+        "Sie erreichen über 100x mehr Käufer!"
+      ],
+      "identifier": "V3.gallery_med_low",
+      "subtitle": "Erreichen Sie 100x mehr K\u0026auml;ufer",
+      "title": "In die Galerie"
+    },
+    {
+      "body": "Geben Sie Ihrem Inserat eine Woche lang einen von nur 3 Plätzen in der Galerie. Die Galerie ist für jede Kategorie und in jedem Kanton verfügbar, so erreichen Sie über 100x mehr Käufer!",
+      "bullets": [
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Ihr Inserat ist im Grossformat über allen anderen",
+        "Sie erreichen über 100x mehr Käufer!"
+      ],
+      "identifier": "V3.gallery_med_high",
+      "subtitle": "Erreichen Sie 100x mehr K\u0026auml;ufer",
+      "title": "In die Galerie"
+    },
+    {
+      "body": "Geben Sie Ihrem Inserat eine Woche lang einen von nur 3 Plätzen in der Galerie. Die Galerie ist für jede Kategorie und in jedem Kanton verfügbar, so erreichen Sie über 100x mehr Käufer!",
+      "bullets": [
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Ihr Inserat ist im Grossformat über allen anderen",
+        "Sie erreichen über 100x mehr Käufer!"
+      ],
+      "identifier": "V3.gallery_high",
+      "subtitle": "Erreichen Sie 100x mehr K\u0026auml;ufer",
+      "title": "In die Galerie"
+    },
+    {
+      "body": "Heben Sie Ihr Inserat gelb leuchtend in der Liste hervor. Das zieht Käufer an und Ihr Inserat fällt mehr auf! Und keine Sorge, wenn's nicht sofort klappt - Ihr Inserat bleibt während seiner gesamten Laufzeit im Rampenlicht.",
+      "bullets": [
+        "Gibt Ihrem Inserat einen farbigen Hintergrund",
+        "Ihr Inserat fällt auf und wird öfter angeklickt"
+      ],
+      "identifier": "V3.highlight_low",
+      "subtitle": "Fallen Sie positiv auf",
+      "title": "Ins Rampenlicht"
+    },
+    {
+      "body": "Heben Sie Ihr Inserat gelb leuchtend in der Liste hervor. Das zieht Käufer an und Ihr Inserat fällt mehr auf! Und keine Sorge, wenn's nicht sofort klappt - Ihr Inserat bleibt während seiner gesamten Laufzeit im Rampenlicht.",
+      "bullets": [
+        "Gibt Ihrem Inserat einen farbigen Hintergrund",
+        "Ihr Inserat fällt auf und wird öfter angeklickt"
+      ],
+      "identifier": "V3.highlight_med_low",
+      "subtitle": "Fallen Sie positiv auf",
+      "title": "Ins Rampenlicht"
+    },
+    {
+      "body": "Heben Sie Ihr Inserat gelb leuchtend in der Liste hervor. Das zieht Käufer an und Ihr Inserat fällt mehr auf! Und keine Sorge, wenn's nicht sofort klappt - Ihr Inserat bleibt während seiner gesamten Laufzeit im Rampenlicht.",
+      "bullets": [
+        "Gibt Ihrem Inserat einen farbigen Hintergrund",
+        "Ihr Inserat fällt auf und wird öfter angeklickt"
+      ],
+      "identifier": "V3.highlight_med_high",
+      "subtitle": "Fallen Sie positiv auf",
+      "title": "Ins Rampenlicht"
+    },
+    {
+      "body": "Heben Sie Ihr Inserat gelb leuchtend in der Liste hervor. Das zieht Käufer an und Ihr Inserat fällt mehr auf! Und keine Sorge, wenn's nicht sofort klappt - Ihr Inserat bleibt während seiner gesamten Laufzeit im Rampenlicht.",
+      "bullets": [
+        "Gibt Ihrem Inserat einen farbigen Hintergrund",
+        "Ihr Inserat fällt auf und wird öfter angeklickt"
+      ],
+      "identifier": "V3.highlight_high",
+      "subtitle": "Fallen Sie positiv auf",
+      "title": "Ins Rampenlicht"
+    },
+    {
+      "body": "Der Tutti-Deal setzt Ihr Inserat gleichzeitig an die Spitze, ins Rampenlicht und in die Galerie zum besten Preis und der grössten Verkaufschance. So verpasst niemand Ihr Inserat - und Sie sparen noch Geld dabei.",
+      "bullets": [
+        "Alle Vorteile kombiniert in einem Superangebot!",
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Hebt Ihr Inserat mit einem farbigen Hintergrund hervor",
+        "Schiebt Ihr Inserat 7 Mal wieder ganz nach oben"
+      ],
+      "identifier": "V3.combo_low",
+      "subtitle": "Verkaufen wie ein Profi",
+      "title": "Tutti-Deal"
+    },
+    {
+      "body": "Der Tutti-Deal setzt Ihr Inserat gleichzeitig an die Spitze, ins Rampenlicht und in die Galerie zum besten Preis und der grössten Verkaufschance. So verpasst niemand Ihr Inserat - und Sie sparen noch Geld dabei.",
+      "bullets": [
+        "Alle Vorteile kombiniert in einem Superangebot!",
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Hebt Ihr Inserat mit einem farbigen Hintergrund hervor",
+        "Schiebt Ihr Inserat 7 Mal wieder ganz nach oben"
+      ],
+      "identifier": "V3.combo_med_low",
+      "subtitle": "Verkaufen wie ein Profi",
+      "title": "Tutti-Deal"
+    },
+    {
+      "body": "Der Tutti-Deal setzt Ihr Inserat gleichzeitig an die Spitze, ins Rampenlicht und in die Galerie zum besten Preis und der grössten Verkaufschance. So verpasst niemand Ihr Inserat - und Sie sparen noch Geld dabei.",
+      "bullets": [
+        "Alle Vorteile kombiniert in einem Superangebot!",
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Hebt Ihr Inserat mit einem farbigen Hintergrund hervor",
+        "Schiebt Ihr Inserat 7 Mal wieder ganz nach oben"
+      ],
+      "identifier": "V3.combo_med_high",
+      "subtitle": "Verkaufen wie ein Profi",
+      "title": "Tutti-Deal"
+    },
+    {
+      "body": "Der Tutti-Deal setzt Ihr Inserat gleichzeitig an die Spitze, ins Rampenlicht und in die Galerie zum besten Preis und der grössten Verkaufschance. So verpasst niemand Ihr Inserat - und Sie sparen noch Geld dabei.",
+      "bullets": [
+        "Alle Vorteile kombiniert in einem Superangebot!",
+        "Setzt Ihr Inserat eine Woche in die Galerie",
+        "Hebt Ihr Inserat mit einem farbigen Hintergrund hervor",
+        "Schiebt Ihr Inserat 7 Mal wieder ganz nach oben"
+      ],
+      "subtitle": "Verkaufen wie ein Profi",
+      "title": "Tutti-Deal"
+    }
+  ]
+}
