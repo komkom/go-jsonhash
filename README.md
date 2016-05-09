@@ -11,7 +11,7 @@ Possible usecases
 Use `go get` to install the latest version
 of the library.
 
-    > go get -v github.com/komkom/go-jsonhash/go-jsonhash
+    > go get -v github.com/komkom/go-jsonhash
 
 to import the package use
 
