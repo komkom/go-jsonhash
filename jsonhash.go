@@ -1,16 +1,18 @@
 package jsonhash
 
 import (
+	"bytes"
 	"crypto/md5"
 	"encoding/base64"
 	"fmt"
 	"hash"
 	"sort"
-	"strings"
 )
 
 const toescape = `x`
 const escape = `_x`
+
+var escsq = [...]rune{'[', ']', '{', '}', '#', '/'}
 
 // Hash a valid json map.
 func Hash(json map[string]interface{}) []byte {
@@ -30,6 +32,7 @@ func HashS(json map[string]interface{}) string {
 
 func hashObject(json map[string]interface{}, hash hash.Hash) {
 
+	hash.Write([]byte(`{`))
 	var keys = sortedKeys(json)
 	for _, key := range keys {
 		v := json[key]
@@ -42,13 +45,16 @@ func hashObject(json map[string]interface{}, hash hash.Hash) {
 		case []interface{}:
 			hashArray(o, hash)
 		default:
-			hash.Write([]byte(escapeValue(fmt.Sprintf("%T", o), fmt.Sprintf("%v", o))))
+			hash.Write([]byte(escapeValue(o)))
 		}
 	}
+
+	hash.Write([]byte(`}`))
 }
 
 func hashArray(jsonArray []interface{}, hash hash.Hash) {
 
+	hash.Write([]byte(`[`))
 	for _, v := range jsonArray {
 
 		switch o := v.(type) {
@@ -57,23 +63,43 @@ func hashArray(jsonArray []interface{}, hash hash.Hash) {
 		case []interface{}:
 			hashArray(o, hash)
 		default:
-			hash.Write([]byte(escapeValue(fmt.Sprintf("%T", o), fmt.Sprintf("%v", o))))
+			hash.Write([]byte(escapeValue(o)))
 		}
 	}
+
+	hash.Write([]byte(`]`))
 }
 
 func escapeKey(key string) string {
-
-	return toescape + escapeString(key)
+	return escapeString(key)
 }
 
-func escapeValue(vtype string, value string) string {
-	return toescape + escapeString(vtype) + toescape + toescape + escapeString(value)
+func escapeValue(value interface{}) string {
+	return `/` + escapeString(fmt.Sprintf(`%T`, value)) + `#` + escapeString(fmt.Sprintf("%v", value)) + `/`
 }
 
 func escapeString(value string) string {
 
-	return strings.Replace(value, toescape, escape, -1)
+	b := bytes.Buffer{}
+
+	for _, r := range value {
+		check := false
+		for _, er := range escsq {
+			if er == r {
+				check = true
+				b.WriteRune('_')
+				b.WriteRune(r)
+			}
+		}
+
+		if !check {
+			b.WriteRune(r)
+		}
+	}
+
+	//fmt.Println(b.String())
+
+	return b.String()
 }
 
 func sortedKeys(json map[string]interface{}) []string {
