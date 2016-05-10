@@ -22,9 +22,15 @@ import "github.com/komkom/jsonhash"
 ### usage
 
 ```go
+f, err := os.Open("some.json")
+if err != nil {
+    panic(err)
+}
+defer f.Close()
+
 var j map[string]interface{}
 dec := json.NewDecoder(f)
-err := dec.Decode(&j); 
+err := dec.Decode(&j)
 if err != nil {
   panic(err)
 }
