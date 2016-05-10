@@ -9,9 +9,6 @@ import (
 	"sort"
 )
 
-const toescape = `x`
-const escape = `_x`
-
 var escsq = [...]rune{'[', ']', '{', '}', '#', '/'}
 
 // Hash a valid json map.
