@@ -19,6 +19,8 @@ func TestJson(t *testing.T) {
 		"resources/typetest2.json",
 		"resources/typetest3.json",
 		"resources/typetest4.json",
+		"resources/alias.json",
+		"resources/alias2.json",
 	}
 
 	hmap := map[string]string{}
@@ -53,6 +55,8 @@ func TestJson(t *testing.T) {
 	Eval("typetest.json", "typetest2.json", hmap, false, t)
 
 	Eval("typetest3.json", "typetest4.json", hmap, false, t)
+
+	Eval("alias.json", "alias2.json", hmap, false, t)
 }
 
 func Eval(ljson, rjson string, hmap map[string]string, shouldBeEqual bool, t *testing.T) {

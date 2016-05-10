@@ -1,0 +1,8 @@
+{
+	"arr" : ["1",true,123,"test"],
+	"someobject" :
+		{
+			"test" : "1",
+			"aliaskey" : "2"
+		}
+}
