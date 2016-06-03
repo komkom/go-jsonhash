@@ -1,11 +1,11 @@
 package jsonhash
 
 import (
-	"bytes"
 	"crypto/md5"
 	"encoding/base64"
 	"fmt"
 	"hash"
+	"io"
 	"sort"
 )
 
@@ -29,29 +29,28 @@ func HashS(json map[string]interface{}) string {
 
 func hashObject(json map[string]interface{}, hash hash.Hash) {
 
-	hash.Write([]byte(`{`))
+	addCtrlSeq(`{`, hash)
 	var keys = sortedKeys(json)
 	for _, key := range keys {
 		v := json[key]
 
-		hash.Write([]byte(escapeKey(key)))
-
+		escapeKey(key, hash)
 		switch o := v.(type) {
 		case map[string]interface{}:
 			hashObject(o, hash)
 		case []interface{}:
 			hashArray(o, hash)
 		default:
-			hash.Write([]byte(escapeValue(o)))
+			escapeValue(o, hash)
 		}
 	}
 
-	hash.Write([]byte(`}`))
+	addCtrlSeq(`}`, hash)
 }
 
 func hashArray(jsonArray []interface{}, hash hash.Hash) {
 
-	hash.Write([]byte(`[`))
+	addCtrlSeq(`[`, hash)
 	for _, v := range jsonArray {
 
 		switch o := v.(type) {
@@ -60,43 +59,42 @@ func hashArray(jsonArray []interface{}, hash hash.Hash) {
 		case []interface{}:
 			hashArray(o, hash)
 		default:
-			hash.Write([]byte(escapeValue(o)))
+			escapeValue(o, hash)
 		}
 	}
-
-	hash.Write([]byte(`]`))
+	addCtrlSeq(`]`, hash)
 }
 
-func escapeKey(key string) string {
-	return escapeString(key)
+func escapeKey(key string, writer io.Writer) {
+	escapeString(key, writer)
 }
 
-func escapeValue(value interface{}) string {
-	return `/` + escapeString(fmt.Sprintf(`%T`, value)) + `#` + escapeString(fmt.Sprintf("%v", value)) + `/`
+func escapeValue(value interface{}, writer io.Writer) {
+
+	addCtrlSeq(`/`, writer)
+	escapeString(fmt.Sprintf(`%T`, value), writer)
+	addCtrlSeq(`#`, writer)
+	escapeString(fmt.Sprintf("%v", value), writer)
+	addCtrlSeq(`/`, writer)
 }
 
-func escapeString(value string) string {
+func addCtrlSeq(c string, writer io.Writer) {
+	writer.Write([]byte(`*`))
+	writer.Write([]byte(c))
+}
 
-	b := bytes.Buffer{}
+func escapeString(value string, writer io.Writer) {
 
 	for _, r := range value {
-		check := false
 		for _, er := range escsq {
 			if er == r {
-				check = true
-				b.WriteRune('_')
-				b.WriteRune(r)
+				writer.Write([]byte(`_`))
+				break
 			}
 		}
 
-		if !check {
-			b.WriteRune(r)
-		}
+		writer.Write([]byte(string(r)))
 	}
-
-	//fmt.Println(b.String())
-
-	return b.String()
 }
 
 func sortedKeys(json map[string]interface{}) []string {
