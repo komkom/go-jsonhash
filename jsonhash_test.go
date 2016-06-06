@@ -8,7 +8,6 @@ import (
 )
 
 func TestJson(t *testing.T) {
-
 	resources := []string{
 		"resources/test.json",
 		"resources/test2.json",
